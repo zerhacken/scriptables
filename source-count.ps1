@@ -1,0 +1,1 @@
+(dir -include *.cpp, *.h -recurse | select-string "^(\s*)$" -notMatch).Count
